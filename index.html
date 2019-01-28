@@ -1,392 +1,71 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+<html lang="en">
+  <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+    <title>hexo-theme-doc-seed | hexo-theme-doc-seed </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/style/doc.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico">
+
+    
+
+  </head>
+  <body>
+
+   <script>window.__INITIAL_STATE__ = {"page":{"title":"hexo-theme-doc-seed","path":"index.html"},"data":{"navigation":{"logo":{"text":"Hexo Doc Theme Seed","type":"link","path":"index.html"},"main":[{"text":"SWAGGER","type":"label"},{"text":"UI","type":"link","path":"swagger/ui.html"},{"text":"To HTML","type":"link","path":"swagger/to-html.html"},{"text":"SUPPORT AND FEEDBACK","type":"label"},{"text":"Raise an Issue on Github","type":"link","path":"https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"}]}},"config":{"timezone":"UTC","root":"/","time_format":"HH:mm:ss","theme":"../node_modules/hexo-theme-doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico"}}}</script>
+
+    <div id="react-navigation-root"><div class="doc-navigation" data-reactroot=""><nav class="doc-navbar"><a href="/index.html" class="doc-navbar__logo"><img src="/images/logo.png" class="doc-navbar__logo__img"><span class="doc-navbar__logo__text">Hexo Doc Theme Seed</span></a><i class="dc-icon dc-icon--close dc-icon--interactive doc-sidebar-close doc-navbar__sidebar-close doc-navbar__sidebar-close--desktop"></i><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-navbar__sidebar-toggle"></i></nav><nav class="doc-sidebar"><div class="doc-sidebar__vertical-menu"><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-sidebar-toggle--primary doc-sidebar__vertical-menu__item"></i><i class="dc-icon dc-icon--search dc-icon--interactive doc-sidebar__vertical-menu__item doc-sidebar__vertical-menu__item--primary"></i></div><div class="doc-sidebar-content"><div class="doc-sidebar__search-form"></div><ul class="doc-sidebar-list"></ul></div></nav></div></div>
+    <div class="doc-content">
+  <div class="dc-page">
+    <div class="dc-card">
+      <div id="react-search-results-root"></div>
+      <div id="page-content" class="doc-formatting">
+        <h1 id="hexo-theme-doc-seed"><a href="#hexo-theme-doc-seed" class="headerlink" title="hexo-theme-doc-seed"></a>hexo-theme-doc-seed</h1><p>This project is a skeleton for a documentation website using <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> and <a href="https://github.com/zalando-incubator/hexo-theme-doc" target="_blank" rel="noopener">hexo-theme-doc</a>.<br>You can use it to quickly bootstrap your documentation website.</p>
+<p>The seed contains the required structure and files to use Hexo and the theme, plus dummy content to show the usage of the main features of the theme.</p>
+<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>To get started have a look first to the <a href="https://zalando-incubator.github.io/hexo-theme-doc/get-started.html#Requirements" target="_blank" rel="noopener">requirements</a>, then install <code>hexo-cli</code> with:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>Now just clone <code>hexo-theme-doc-seed</code> repository:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/zalando-incubator/hexo-theme-doc-seed.git &lt;directory&gt;</span><br></pre></td></tr></table></figure>
+<p>Go into the resulting directory and install dependencies:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>Start the preview server locally with:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>If you open your browser at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> you should see the documentation website up and running.</p>
+</blockquote>
+<h2 id="More-Informations"><a href="#More-Informations" class="headerlink" title="More Informations"></a>More Informations</h2><p>For more informations please visit the <a href="https://zalando-incubator.github.io/hexo-theme-doc/" target="_blank" rel="noopener">user documentation website</a>.</p>
+
+        <div id="react-support-footer-root"></div>
       </div>
     </div>
   </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-Test-page" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/28/Test-page/" class="article-date">
-  <time datetime="2019-01-28T08:50:12.000Z" itemprop="datePublished">2019-01-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/28/Test-page/">Test page</a>
-    </h1>
-  
+</div>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="GitHub-Flavored-Markdown"><a href="#GitHub-Flavored-Markdown" class="headerlink" title="GitHub-Flavored Markdown"></a>GitHub-Flavored Markdown</h1><h2 id="Краткое-руководство"><a href="#Краткое-руководство" class="headerlink" title="Краткое руководство"></a>Краткое руководство</h2><p>Абзацы создаются при помощи пустой строки. Если вокруг текста сверху и снизу есть пустые строки, то текст превращается в абзац.</p>
-<p>Чтобы сделать перенос строки вместо абзаца,<br>нужно поставить два пробела в конце предыдущей строки.</p>
-<p>Заголовки отмечаются диезом <code>#</code> в начале строки, от одного до шести. Например:</p>
-<h1 id="Заголовок-первого-уровня"><a href="#Заголовок-первого-уровня" class="headerlink" title="Заголовок первого уровня"></a>Заголовок первого уровня</h1><h2 id="Заголовок-h2"><a href="#Заголовок-h2" class="headerlink" title="Заголовок h2"></a>Заголовок h2</h2><h3 id="Заголовок-h3"><a href="#Заголовок-h3" class="headerlink" title="Заголовок h3"></a>Заголовок h3</h3><h4 id="Заголовок-h4"><a href="#Заголовок-h4" class="headerlink" title="Заголовок h4"></a>Заголовок h4</h4><h5 id="Заголовок-h5"><a href="#Заголовок-h5" class="headerlink" title="Заголовок h5"></a>Заголовок h5</h5><h6 id="Заголовок-h6"><a href="#Заголовок-h6" class="headerlink" title="Заголовок h6"></a>Заголовок h6</h6><p>В декоративных целях заголовки можно «закрывать» с обратной стороны.</p>
-<h3 id="Списки"><a href="#Списки" class="headerlink" title="Списки"></a>Списки</h3><p>Для разметки неупорядоченных списков можно использовать или <code>*</code>, или <code>-</code>, или <code>+</code>:</p>
-<ul>
-<li>элемент 1</li>
-<li>элемент 2</li>
-<li>элемент …</li>
-</ul>
-<p>Вложенные пункты создаются четырьмя пробелами перед маркером пункта:</p>
-<ul>
-<li>элемент 1</li>
-<li>элемент 2<ul>
-<li>вложенный элемент 2.1</li>
-<li>вложенный элемент 2.2</li>
-</ul>
-</li>
-<li>элемент …</li>
-</ul>
-<p>Упорядоченный список:</p>
-<ol>
-<li>элемент 1</li>
-<li>элемент 2<ol>
-<li>вложенный</li>
-<li>вложенный</li>
-</ol>
-</li>
-<li>элемент 3</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.</li>
-</ol>
-<p>На самом деле не важно как в коде пронумерованы пункты, главное, чтобы перед элементом списка стояла цифра (любая) с точкой. Можно сделать и так:</p>
-<ol start="0">
-<li>элемент 1</li>
-<li>элемент 2</li>
-<li>элемент 3</li>
-<li>элемент 4</li>
-</ol>
-<p>Список с абзацами:</p>
-<ul>
-<li><p>Раз абзац. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</li>
-<li><p>Два абзац. Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.</p>
-</li>
-<li><p>Три абзац. Ea, quis, alias nobis porro quos laborum minus sed fuga odio dolore natus quas cum enim necessitatibus magni provident non saepe sequi?</p>
-<p>  Четыре абзац (Четыре пробела в начале или один tab).</p>
-</li>
-</ul>
-<h3 id="Цитаты"><a href="#Цитаты" class="headerlink" title="Цитаты"></a>Цитаты</h3><p>Цитаты оформляются как в емейлах, с помощью символа <code>&gt;</code>.</p>
-<blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br>id sem consectetuer libero luctus adipiscing.</p>
-</blockquote>
-<p>Или более ленивым способом, когда знак <code>&gt;</code> ставится перед каждым элементом цитаты, будь то абзац, заголовок или пустая строка:</p>
-<blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br>id sem consectetuer libero luctus adipiscing.</p>
-</blockquote>
-<p>В цитаты можно помещать всё что угодно, в том числе вложенные цитаты:</p>
-<blockquote>
-<h2 id="This-is-a-header"><a href="#This-is-a-header" class="headerlink" title="This is a header."></a>This is a header.</h2><ol>
-<li>This is the first list item.</li>
-<li>This is the second list item.</li>
-</ol>
-<blockquote>
-<p>Вложенная цитата.</p>
-</blockquote>
-<p>Here’s some example code:</p>
-<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
-</code></pre></blockquote>
-<h3 id="Исходный-код"><a href="#Исходный-код" class="headerlink" title="Исходный код"></a>Исходный код</h3><p>В чистом Маркдауне блоки кода отбиваются 4 пробелами в начале каждой строки.</p>
-<p>Но в GitHub-Flavored Markdown (сокращенно GFM) есть более удобный способ: ставим по три апострофа (на букве Ё) до и после кода. Также можно указать язык исходного кода.</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">nav</span> <span class="attr">class</span>=<span class="string">"nav nav-primary"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"tab-conversation active"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span> <span class="attr">data-role</span>=<span class="string">"post-count"</span> <span class="attr">class</span>=<span class="string">"publisher-nav-color"</span> <span class="attr">data-nav</span>=<span class="string">"conversation"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"comment-count"</span>&gt;</span>0 комментариев<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"comment-count-placeholder"</span>&gt;</span>Комментарии<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"dropdown user-menu"</span> <span class="attr">data-role</span>=<span class="string">"logout"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span> <span class="attr">class</span>=<span class="string">"dropdown-toggle"</span> <span class="attr">data-toggle</span>=<span class="string">"dropdown"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"dropdown-toggle-wrapper"</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">            Войти</span><br><span class="line">          <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"caret"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">nav</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>Самое приятное, что в коде не нужно заменять угловые скобки <code>&lt; &gt;</code> и амперсанд <code>&amp;</code> на их html-сущности.</p>
-<h3 id="Инлайн-код"><a href="#Инлайн-код" class="headerlink" title="Инлайн код"></a>Инлайн код</h3><p>Для вставки кода внутри предложений нужно заключать этот код в апострофы (на букве Ё). Пример: <code>&lt;html class=&quot;ie no-js&quot;&gt;</code>.</p>
-<p>Если внутри кода есть апостроф, то код надо обрамить двойными апострофами: <code>There is a literal backtick (`) here.</code></p>
-<h3 id="Горизонтальная-черта"><a href="#Горизонтальная-черта" class="headerlink" title="Горизонтальная черта"></a>Горизонтальная черта</h3><p><code>hr</code> создается тремя звездочками или тремя дефисами.</p>
-<hr>
-<h3 id="Ссылки"><a href="#Ссылки" class="headerlink" title="Ссылки"></a>Ссылки</h3><p>Это встроенная <a href="http://example.com/link" title="Я ссылка" target="_blank" rel="noopener">ссылка с title элементом</a>. Это — <a href="http://example.com/link" target="_blank" rel="noopener">без title</a>.</p>
-<p>А вот <a href="http://example.com/" title="Optional Title Here" target="_blank" rel="noopener">пример</a> <a href="http://example.com/some" target="_blank" rel="noopener">нескольких</a> <a href="http://example.com/links" title="Optional Title Here" target="_blank" rel="noopener">ссылок</a> с разметкой как у сносок. Прокатит и <a href="http://example.com/short" target="_blank" rel="noopener">короткая запись</a> без указания id.</p>
-<p>Вынос длинных урлов из предложения способствует сохранению читабельности исходника. Сноски можно располагать в любом месте документа.</p>
-<h3 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h3><p>Выделять слова можно при помощи <code>*</code> и <code>_</code>. Одним символ для наклонного текста, два символа для жирного текста, три — для наклонного и жирного одновременно.</p>
-<p>Например, это <em>italic</em> и это тоже <em>italic</em>. А вот так уже <strong>strong</strong>, и так тоже <strong>strong</strong>. А так <strong><em>жирный и наклонный</em></strong> одновременно.</p>
-<h3 id="Зачеркивание"><a href="#Зачеркивание" class="headerlink" title="Зачеркивание"></a>Зачеркивание</h3><p>В GFM добавлено зачеркивание текста: две тильды <code>~</code> до и после текста.</p>
-<p><del>Зачеркнуто</del></p>
-<h2 id="Картинки"><a href="#Картинки" class="headerlink" title="Картинки"></a>Картинки</h2><p>Картинка без <code>alt</code> текста</p>
-<p><img src="//placehold.it/150x100" alt=""></p>
-<p>Картинка с альтом и тайтлом:</p>
-<p><img src="//placehold.it/150x100" alt="Alt text" title="Можно задать title"></p>
-<p>Запомнить просто: синтаксис как у ссылок, только перед открывающей квадратной скобкой ставится восклицательный знак.</p>
-<p>Картинки «сноски»:</p>
-<p><img src="//placehold.it/250x100" alt="Картинка"><br><img src="//placehold.it/200x100" alt="Картинка"><br><img src="//placehold.it/150x100" alt="Картинка"></p>
-<p>Картинки-ссылки:</p>
-<p><a href="http://example.com/" target="_blank" rel="noopener"><img src="//placehold.it/150x100" alt="Alt text"></a></p>
-<h2 id="Использование-HTML-внутри-Markdown"><a href="#Использование-HTML-внутри-Markdown" class="headerlink" title="Использование HTML внутри Markdown"></a>Использование HTML внутри Markdown</h2><p>Mожно смешивать Markdown и HTML. Если на какие-то элементы нужно поставить классы или атрибуты, смело используем HTML:</p>
-<blockquote>
-<p>Выделять слова можно при помощи * и _ . Например, это <em class="a1">italic</em> и это тоже <i class="a1">italic</i>. А вот так уже <b>strong</b>, и так тоже <strong>strong</strong>.</p>
-</blockquote>
-<p>Можно и наоборот, внутри HTML-тегов использовать Маркдаун.</p>
-<section class="someclass"><br><br>### Пример Маркдауна внутри HTML<br><br>Выделять слова можно при помощи <code>*</code> и <code>_</code> . Например, это <em>italic</em> и это тоже <em>italic</em>. А вот так уже <strong>strong</strong>, и так тоже <strong>strong</strong>.<br><br></section>
-
-<h3 id="Таблицы"><a href="#Таблицы" class="headerlink" title="Таблицы"></a>Таблицы</h3><p>В чистом Маркдауне нет синтаксиса для таблиц, а в GFM есть.</p>
-<table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-<p>Для красоты можно и по бокам линии нарисовать:</p>
-<table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-<p>Можно управлять выравниванием столбцов при помощи двоеточия.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Left-Aligned</th>
-<th style="text-align:center">Center Aligned</th>
-<th style="text-align:right">Right Aligned</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">col 3 is</td>
-<td style="text-align:center">some wordy text</td>
-<td style="text-align:right"><strong>$1600</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td style="text-align:left">zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right"><del>$1</del></td>
-</tr>
-</tbody>
-</table>
-<p>Внутри таблиц можно использовать ссылки, наклонный, жирный или зачеркнутый текст.</p>
-<p>Для всего остального есть обычный HTML.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/28/Test-page/" data-id="cjrg3ktk10000a1hne3t75xss" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/28/hello-world/" class="article-date">
-  <time datetime="2019-01-28T08:33:34.526Z" itemprop="datePublished">2019-01-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/28/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/28/hello-world/" data-id="cjrg3ktk50001a1hnc75a478j" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
     
 
-  
+
     
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
-    </div>
-  </div>
+    <!-- js vendors -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.0/lunr.min.js"></script>
 
+    <!-- js source  -->
+    <script src="/script/doc.js"></script>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/01/28/Test-page/">Test page</a>
-          </li>
-        
-          <li>
-            <a href="/2019/01/28/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
-
-  </div>
-</body>
+  </body>
 </html>
